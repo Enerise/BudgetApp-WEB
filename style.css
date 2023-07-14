@@ -2,6 +2,14 @@ body{
     background-color: #F5F5F5;
 }
 
+.brand{
+    color:#F5F5F5 !important; 
+}
+
+.brand:hover{
+    color:#F2EAD3 !important; 
+}
+
 .hiperlink{
     color: black !important;
 }
@@ -76,6 +84,24 @@ color:#3F2305 !important;
     width: 3rem;
     height: 3rem;
     border-radius: 0.75rem;
+}
+
+.nav-item{
+    color #F2EAD3 !important;
+}
+
+li{
+    background-color: #3F2305 !important;  
+    margin-right: 10px;
+    border-radius: 10%;
+    color:black !important;
+    border-color: #F2EAD3 !important;
+    border: 100px !important;
+}
+li:hover{
+background-color: #271503 !important;
+color:black !important;
+border-radius: 10%;
 }
 
 @media (max-width: 1000px)
