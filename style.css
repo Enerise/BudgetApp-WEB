@@ -90,30 +90,44 @@ color:#3F2305 !important;
     color #F2EAD3 !important;
 }
 
+
 li{
     background-color: #3F2305 !important;  
     margin-right: 10px;
-    border-radius: 10%;
     color:black !important;
     border-color: #F2EAD3 !important;
     border: 100px !important;
 }
+
 li:hover{
 background-color: #271503 !important;
 color:black !important;
-border-radius: 10%;
 }
 
-@media (max-width: 1000px)
+@media (max-width: 1075px)
 {
     .zdjecie{
         height: 60px;
     }
+
+    .login{
+        height: 45px;
+    }
 }
 
-@media (max-width: 600px)
+@media (max-width: 767px)
 {
     .zdjecie{
         height: 45px;
     }
+
+    .login{
+        height: 40px;
+    }
+
+    .picture_log{
+        margin-top: 20px;
+        
+    }
+
 }
